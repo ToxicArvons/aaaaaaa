@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="computer_or_2nd_player_first">computer or 2nd player first</string>
+    <string name="random">random</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_vs_player">Player vs Player</string>
+    <string name="player_vs_computer">Player vs Computer</string>
+    <string name="player_first">player first</string>
+    <string name="player_x_s_turn">Player X\'s Turn</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="reset_game">Reset Game</string>
+</resources>

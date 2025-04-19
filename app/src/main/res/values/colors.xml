@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="MediumAquamarine">#66CDAA</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+</resources>

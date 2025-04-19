@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/PowderBlue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/DarkSlateGray"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:background="@color/MediumAquamarine"
+        android:padding="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgFirstTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/rbPlayerFirst"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/player_first"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbComputerFirst"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/computer_or_2nd_player_first"/>
+
+        <RadioButton
+            android:id="@+id/rbRandom"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/random"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etPlayer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/player_1"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="16dp"
+        android:background="@color/WhiteSmoke"
+        android:minHeight="48dp"
+        android:minWidth="120dp"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/etPlayer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/WhiteSmoke"
+        android:hint="@string/player_2"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:minWidth="120dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/btnPvP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_vs_player"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/WhiteSmoke"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:padding="12dp"/>
+
+
+    <Button
+        android:id="@+id/btnPvC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_vs_computer"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/WhiteSmoke"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:padding="12dp"/>
+
+
+
+
+</LinearLayout>

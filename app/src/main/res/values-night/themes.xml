@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Aaaaaaa" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/MediumAquamarine</item>
+        <!-- Add other theme overrides here -->
+    </style>
+
+    <!-- Your app's main theme -->
+    <style name="Theme.Aaaaaaa" parent="Base.Theme.Aaaaaaa" />
+</resources>

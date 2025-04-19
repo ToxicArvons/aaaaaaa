@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/PowderBlue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textColor="@color/DarkSlateGray"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:background="@color/MediumAquamarine"/>
+
+    <RadioGroup
+        android:id="@+id/rgFirstTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineProvider="background"
+        android:outlineSpotShadowColor="@color/Black"
+        >
+
+
+        <RadioButton
+            android:id="@+id/rbPlayerFirst"
+            android:text="Player Goes First"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbComputerFirst"
+            android:text="Computer/2nd player Goes First"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>/>
+
+        <RadioButton
+            android:id="@+id/rbRandom"
+            android:text="Random"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etPlayer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player 1 Name"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="16dp"
+        android:background="@color/White"/>
+
+    <EditText
+        android:id="@+id/etPlayer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player 2 Name"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        android:layout_marginBottom="24dp"
+        android:background="@color/White"/>
+
+    <Button
+        android:id="@+id/btnPvP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player vs Player"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/WhiteSmoke"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/btnPvC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player vs Computer"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/WhiteSmoke"
+        android:gravity="center_horizontal"/>
+
+
+
+</LinearLayout>
